@@ -34,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CAD2949E2C491788003DC57A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CAD7C99C2C4872EE0069CB99 /* SuperCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAD7C99F2C4872EE0069CB99 /* SuperCodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperCodeApp.swift; sourceTree = "<group>"; };
 		CAD7C9A12C4872EE0069CB99 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -75,6 +76,7 @@
 		CAD7C9932C4872EE0069CB99 = {
 			isa = PBXGroup;
 			children = (
+				CAD2949E2C491788003DC57A /* README.md */,
 				CAD7C99E2C4872EE0069CB99 /* SuperCode */,
 				CAD7C9B02C4872EF0069CB99 /* SuperCodeTests */,
 				CAD7C9BA2C4872EF0069CB99 /* SuperCodeUITests */,
