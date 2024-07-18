@@ -8,13 +8,28 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var petCount = 0
     var body: some View {
         VStack {
-            Image(systemName: "globe")
+            Image(systemName: "macbook")
                 .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+                .font(.system(size: 50))
+                .padding()
+            
+            Text("Welcome to SuperCode")
+            
+       } .padding()
+        
+        Button {
+            petCount += 1
+        } label: {
+            Label("Start Coding", systemImage: "macpro.gen3.server")
+            
         }
+        .contentTransition(.symbolEffect(.replace))
+        .font(.largeTitle .bold())
+        
+        
         .padding()
     }
 }
