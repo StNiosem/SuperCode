@@ -34,6 +34,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA70B1A42C49BC8400B2A666 /* 1024.acorn */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1024.acorn; sourceTree = "<group>"; };
+		CA70B1A52C49BC8400B2A666 /* 1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1024.png; sourceTree = "<group>"; };
+		CA70B1A72C49BC8400B2A666 /* 16x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 16x.png; sourceTree = "<group>"; };
+		CA70B1A82C49BC8400B2A666 /* 32x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 32x.png; sourceTree = "<group>"; };
+		CA70B1A92C49BC8400B2A666 /* 64x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 64x.png; sourceTree = "<group>"; };
+		CA70B1AA2C49BC8400B2A666 /* 128x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 128x.png; sourceTree = "<group>"; };
+		CA70B1AB2C49BC8400B2A666 /* 256x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 256x.png; sourceTree = "<group>"; };
+		CA70B1AC2C49BC8400B2A666 /* 512x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 512x.png; sourceTree = "<group>"; };
+		CA70B1AD2C49BC8400B2A666 /* 1024x.acorn */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1024x.acorn; sourceTree = "<group>"; };
+		CA70B1AE2C49BC8400B2A666 /* 1024x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1024x.png; sourceTree = "<group>"; };
+		CA70B1B02C49BC8400B2A666 /* visionOS-BG.acorn */ = {isa = PBXFileReference; lastKnownFileType = file; path = "visionOS-BG.acorn"; sourceTree = "<group>"; };
+		CA70B1B12C49BC8400B2A666 /* visionOS-BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "visionOS-BG.png"; sourceTree = "<group>"; };
+		CA70B1B22C49BC8400B2A666 /* visionOS-front.acorn */ = {isa = PBXFileReference; lastKnownFileType = file; path = "visionOS-front.acorn"; sourceTree = "<group>"; };
+		CA70B1B32C49BC8400B2A666 /* visionOS-front.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "visionOS-front.png"; sourceTree = "<group>"; };
+		CA70B1B42C49BC8400B2A666 /* visionOS-middle.acorn */ = {isa = PBXFileReference; lastKnownFileType = file; path = "visionOS-middle.acorn"; sourceTree = "<group>"; };
+		CA70B1B52C49BC8400B2A666 /* visionOS-middle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "visionOS-middle.png"; sourceTree = "<group>"; };
+		CA70B1B82C49BCC700B2A666 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		CAD2949E2C491788003DC57A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CAD7C99C2C4872EE0069CB99 /* SuperCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAD7C99F2C4872EE0069CB99 /* SuperCodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperCodeApp.swift; sourceTree = "<group>"; };
@@ -73,9 +90,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CA70B1A62C49BC8400B2A666 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				CA70B1A42C49BC8400B2A666 /* 1024.acorn */,
+				CA70B1A52C49BC8400B2A666 /* 1024.png */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		CA70B1AF2C49BC8400B2A666 /* macos */ = {
+			isa = PBXGroup;
+			children = (
+				CA70B1A72C49BC8400B2A666 /* 16x.png */,
+				CA70B1A82C49BC8400B2A666 /* 32x.png */,
+				CA70B1A92C49BC8400B2A666 /* 64x.png */,
+				CA70B1AA2C49BC8400B2A666 /* 128x.png */,
+				CA70B1AB2C49BC8400B2A666 /* 256x.png */,
+				CA70B1AC2C49BC8400B2A666 /* 512x.png */,
+				CA70B1AD2C49BC8400B2A666 /* 1024x.acorn */,
+				CA70B1AE2C49BC8400B2A666 /* 1024x.png */,
+			);
+			path = macos;
+			sourceTree = "<group>";
+		};
+		CA70B1B62C49BC8400B2A666 /* visionos */ = {
+			isa = PBXGroup;
+			children = (
+				CA70B1B02C49BC8400B2A666 /* visionOS-BG.acorn */,
+				CA70B1B12C49BC8400B2A666 /* visionOS-BG.png */,
+				CA70B1B22C49BC8400B2A666 /* visionOS-front.acorn */,
+				CA70B1B32C49BC8400B2A666 /* visionOS-front.png */,
+				CA70B1B42C49BC8400B2A666 /* visionOS-middle.acorn */,
+				CA70B1B52C49BC8400B2A666 /* visionOS-middle.png */,
+			);
+			path = visionos;
+			sourceTree = "<group>";
+		};
+		CA70B1B72C49BC8400B2A666 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				CA70B1A62C49BC8400B2A666 /* ios */,
+				CA70B1AF2C49BC8400B2A666 /* macos */,
+				CA70B1B62C49BC8400B2A666 /* visionos */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		CAD7C9932C4872EE0069CB99 = {
 			isa = PBXGroup;
 			children = (
+				CA70B1B82C49BCC700B2A666 /* .gitignore */,
+				CA70B1B72C49BC8400B2A666 /* Assets */,
 				CAD2949E2C491788003DC57A /* README.md */,
 				CAD7C99E2C4872EE0069CB99 /* SuperCode */,
 				CAD7C9B02C4872EF0069CB99 /* SuperCodeTests */,
@@ -426,6 +492,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "SuperCode (DBG)";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -436,18 +504,20 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = sh.Niosem.SuperCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 1.0;
 			};
 			name = Debug;
 		};
@@ -464,6 +534,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SuperCode;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -474,18 +546,20 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = sh.Niosem.SuperCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 1.0;
 			};
 			name = Release;
 		};
