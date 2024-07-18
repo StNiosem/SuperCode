@@ -8,24 +8,36 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var petCount = 0
+    @State private var isClicked = false
+    
     var body: some View {
         VStack {
-            Image(systemName: "macbook")
+            Image(systemName: isClicked ? "macbook" : "checkmark")
                 .imageScale(.large)
                 .font(.system(size: 50))
                 .padding()
             
             Text("Welcome to SuperCode")
             
-       } .padding()
+       }
+        .contentTransition(.symbolEffect(.replace))
+        .padding()
+        
         
         Button {
-            petCount += 1
+            withAnimation {
+                isClicked.toggle()
+            }
         } label: {
-            Label("Start Coding", systemImage: "macpro.gen3.server")
-            
+            Label("Start Coding", systemImage: isClicked ? "macpro.gen3.server" : "server.rack")
+                .buttonStyle(.borderedProminent)
+                .controlSize(.large)
+                
+                .fixedSize(horizontal: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/, vertical: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
+                
+                
         }
+        
         .contentTransition(.symbolEffect(.replace))
         .font(.largeTitle .bold())
         
