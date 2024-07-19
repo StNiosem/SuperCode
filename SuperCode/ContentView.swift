@@ -9,10 +9,13 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var isClicked = false
+
     
     var body: some View {
+        
+        
         VStack {
-            Image(systemName: isClicked ? "macbook" : "checkmark")
+            Image(systemName: isClicked ? "checkmark" : "macbook")
                 .imageScale(.large)
                 .font(.system(size: 50))
                 .padding()
@@ -29,7 +32,7 @@ struct ContentView: View {
                 isClicked.toggle()
             }
         } label: {
-            Label("Start Coding", systemImage: isClicked ? "macpro.gen3.server" : "server.rack")
+            Label("Start Coding", systemImage: isClicked ? "server.rack" : "macpro.gen3.server")
                 .buttonStyle(.borderedProminent)
                 .controlSize(.large)
                 
