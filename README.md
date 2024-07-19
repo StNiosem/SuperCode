@@ -5,9 +5,9 @@ Built for iOS, iPadOS, macOS and visionOS.
 With Love from Niosem.
 
 ## Installation
-    * **Mac**
+   * **Mac**
         Download the DMG File from the releases page. Open it, then drag and drop SuperCode to your applications
-    * **iOS and iPadOS** 
+   * **iOS and iPadOS** 
         *I, as a young developer, do not have a signing certificate and/or an Apple developper account. Therefore, SuperCode is not available on the App Store. You will need [AltStore](https://altstore.io) / [SideStore](https://sidestore.io) , Not AltStore PAL. *
         * Download the SuperCode .ipa file from the releases page.
         * Open AltStore/SideStore
@@ -15,7 +15,7 @@ With Love from Niosem.
         * Press the + in the top left corner
         * Select the .ipa file you just downloaded
         * Wait until the install finishes. 
-    * **visionOS** 
+   * **visionOS** 
         *DISCLAIMER: I DO NOT OWN AN APPLE VISION PRO. ALL OF THESE STEPS ARE PURELY THEORETICAL AND ARE NOT VERIFIED BY ME. THIS APP HAS BEEN VALIDATED IN THE VISION PRO SIMULATOR*
         
         * Pair your Vision Pro to Xcode
