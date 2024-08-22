@@ -8,7 +8,7 @@ With Love from Niosem.
    * **Mac**
         Download the DMG File from the releases page. Open it, then drag and drop SuperCode to your applications
    * **iOS and iPadOS** 
-        *I, as a young developer, do not have a signing certificate and/or an Apple developper account. Therefore, SuperCode is not available on the App Store. You will need [AltStore](https://altstore.io) / [SideStore](https://sidestore.io) , Not AltStore PAL. *
+        ***I, as a young developer, do not have a signing certificate and/or an Apple developper account. Therefore, SuperCode is not available on the App Store. You will need [AltStore](https://altstore.io) / [SideStore](https://sidestore.io) , Not AltStore PAL. (at least, not yet...)***
         * Download the SuperCode .ipa file from the releases page.
         * Open AltStore/SideStore
         * Go to the "My Apps" section
